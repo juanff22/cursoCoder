@@ -1,0 +1,51 @@
+/*Index*/
+
+div iframe{
+    margin: 0% 0% 0% 35%;
+}
+
+.videoIndex{
+    width: 560px;
+    height: 300px;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.mainIndex{
+    display: grid;
+    grid-template-rows: 200px 750px 900px;
+}
+.artContenedor {
+    margin: 10px;
+    background-color: #ffc046;
+	width: 450px;
+	height: 650px;
+	padding: 0.5%;
+}
+
+.c1{
+    order: 1;
+}
+
+.c2{
+    order:-3;
+}
+
+.tituloIndex{
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section2{
+    width: 700px;
+    height: 670PX;
+    margin: 1% 0% 0% 30%;
+}

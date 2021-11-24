@@ -1,0 +1,30 @@
+/*Publicaciones Antiguas*/
+
+/*Grid*/
+.contenedorPublicacionesAntiguas{
+    height: 1700px;
+    display: grid;
+    grid-template-rows: repeat(5,320px);
+    align-content: center;
+    justify-content:center;
+}
+
+.contenedor{
+    width: 80%;
+    height: 90%;
+    background-color:#ffbd45;
+    padding: 0.5%;
+  
+}
+
+.imagenPublicacionesAntiguas{
+    width: 25% ;
+    height: 100%;
+    float: left;
+}
+
+
+.textoPublicacionesAntiguas{
+    font-size: 100%;
+    margin: 1%;   
+}

@@ -1,0 +1,41 @@
+/*Ayuda*/
+
+.contactoMain{
+    height: 750px;
+    text-align: center;
+    align-items: center;
+}
+
+.formContacto{
+    font-size: 28px;
+}
+
+.inputContacto{
+
+    font-size: 20px;
+    width: 250px;
+    height: 30px;
+    background: none;
+    border: none;
+    text-decoration: black;
+}
+
+.textareaContacto{
+    background: none;
+    border: none;
+    text-decoration: black;
+}
+
+.buttonContacto{
+    background: #c25e00;
+    border: none;
+    text-decoration: black;
+    width: 70px;
+    height: 30px;
+}
+
+.buttonContacto:hover{
+    color: white;
+    background: #5c007a;
+
+}
