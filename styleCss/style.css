@@ -158,13 +158,38 @@ footer {
 .textoSobreNosotros {
   color: #030303; }
 
-.sobreNosotros {
-  height: 750px; }
+@media only screen and (min-width: 769px) {
+  .sobreNosotros {
+    height: 750px; }
+  .contenedorSobreNos {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr; } }
 
-.contenedorSobreNos {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 4fr 4fr 4fr; }
+/* TABLET */
+@media only screen and (max-width: 768px) and (min-width: 416px) {
+  .sobreNosotros {
+    height: 1450px; }
+  .contenedorSobreNos {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 4fr 4fr 4fr; }
+  .imagenNosotros {
+    height: 400px;
+    width: 250px; } }
+
+/* MOBILE */
+@media only screen and (max-width: 415px) {
+  .sobreNosotros {
+    height: 850px;
+    width: 100%; }
+  .contenedorSobreNos {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 4fr 4fr 4fr; }
+  .imagenNosotros {
+    height: 200px;
+    width: 150px; } }
 
 /*Generales*/
 * {
