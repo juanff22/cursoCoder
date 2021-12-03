@@ -67,6 +67,8 @@ li a:hover {
   background-color: #5c007a;
   color: white; }
 
+/* TABLET */
+/* MOBILE */
 /*Footer*/
 footer {
   text-align: center; }
@@ -74,6 +76,26 @@ footer {
 .imagenFooter {
   width: 4%;
   height: 4%; }
+
+@media only screen and (min-width: 769px) {
+  .imagenFooter {
+    width: 4%;
+    height: 4%; } }
+
+/* TABLET */
+@media only screen and (max-width: 768px) and (min-width: 416px) {
+  .imagenFooter {
+    width: 4%;
+    height: 4%; } }
+
+/* MOBILE */
+@media only screen and (max-width: 415px) {
+  footer {
+    text-align: center;
+    height: 100px; }
+  .imagenFooter {
+    width: 15%;
+    height: 15%; } }
 
 /*Publicaciones Antiguas*/
 /*Grid*/
