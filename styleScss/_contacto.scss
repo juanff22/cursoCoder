@@ -1,13 +1,24 @@
 /*Ayuda*/
 
 .contactoMain{
-    height: 750px;
+    height: 650px;
     text-align: center;
     align-items: center;
 }
 
+.contenedorContacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
 .formContacto{
     font-size: 28px;
+    background-color: #5c007a;
+    width: 450px;
+	height: 350px;
+    margin: 0% 0% 0% 37%;
 }
 
 .inputContacto{
@@ -35,7 +46,29 @@
 }
 
 .buttonContacto:hover{
-    color: white;
-    background: #5c007a;
+    color: black;
+    background: white;
 
+}
+
+
+/* TABLET */
+
+@media only screen and (max-width: 768px) and (min-width: 416px){
+    .formContacto{
+        width: 450px;
+        height: 300px;
+        margin: 0% 0% 0% 15%;
+    }
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 415px) {
+   
+    .formContacto{
+        width: 450px;
+        height: 300px;
+        margin: 0% 0% 0% 2%;
+    }
 }
