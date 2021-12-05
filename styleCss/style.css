@@ -4,7 +4,7 @@ div iframe {
 
 .logo {
   width: 7%;
-  margin: 0% 0% 0% 47%; }
+  margin: 0% 46.5% 0% 46.5%; }
 
 .imagenIndex {
   width: 100%;
@@ -65,7 +65,7 @@ div iframe {
     grid-template-rows: 200px 750px 2800px; }
   .logo {
     width: 7%;
-    margin: 0% 0% 0% 47%; }
+    margin: 0% 46.5% 0% 46.5%; }
   .section2 {
     width: 700px;
     height: 670PX;
@@ -87,9 +87,7 @@ div iframe {
     grid-template-rows: 200px 500px 2700px; }
   .logo {
     width: 15%;
-    margin: 0% 0% 0% 25%; }
-  .tituloIndex {
-    text-align: left; }
+    margin: 0% 42.5% 0% 42.5%; }
   .section2 {
     width: 80%;
     height: 300px;
