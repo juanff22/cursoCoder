@@ -1,7 +1,9 @@
 /*Publicaciones Antiguas*/
 
-/*Grid*/
+.tituloPubliAnti{
+    height: 20px;
 
+}
 
 .contenedor{
     width: 80%;
@@ -23,7 +25,7 @@
     margin: 1%;   
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 843px) {
     .contenedorPublicacionesAntiguas{
         height: 1700px;
         display: grid;
@@ -35,7 +37,7 @@
 
 /* TABLET */
 
-@media only screen and (max-width: 768px) and (min-width: 416px){
+@media only screen and (max-width: 842px) and (min-width: 581px){
     
     .contenedorPublicacionesAntiguas{
         height: 2350px;
@@ -58,7 +60,7 @@
 
 /* MOBILE */
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 580px) {
     
     .contenedorPublicacionesAntiguas{
         height: 3350px;
