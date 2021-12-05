@@ -73,7 +73,8 @@ div iframe {
   .section2 {
     width: 30%;
     height: 670px;
-    margin: 1% 35% 0% 35%; } }
+    margin: 1% 35% 0% 35%;
+    position: justify; } }
 
 /* TABLET */
 @media only screen and (max-width: 956px) and (min-width: 426px) {
@@ -163,7 +164,7 @@ li a.active, li a:hover {
 /* TABLET */
 @media only screen and (max-width: 1068px) and (min-width: 416px) {
   .menu {
-    position: sticky; }
+    position: fixed; }
   .checkBtn {
     display: block; }
   ul {
@@ -182,6 +183,8 @@ li a.active, li a:hover {
     left: 0; } }
 
 @media only screen and (max-width: 415px) {
+  .menu {
+    position: fixed; }
   .checkBtn {
     display: block; }
   ul {

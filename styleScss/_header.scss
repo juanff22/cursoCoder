@@ -71,7 +71,7 @@ li a.active, li a:hover{
 @media only screen and (max-width: 1068px) and (min-width: 416px){
 
     .menu{
-        position: sticky;
+        position: fixed;
     }
      
     .checkBtn{
@@ -106,7 +106,9 @@ li a.active, li a:hover{
 
 @media only screen and (max-width: 415px){
 
-    
+    .menu{
+        position: fixed;
+    }
     
     .checkBtn{
         display: block;
