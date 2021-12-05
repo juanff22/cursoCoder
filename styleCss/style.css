@@ -69,7 +69,16 @@ div iframe {
   .section2 {
     width: 700px;
     height: 670PX;
-    margin: 1% 0% 0% 3%; } }
+    margin: 1% 0% 0% 3%; }
+  .artContenedor {
+    margin: 10px;
+    background-color: #ffc046;
+    width: 450px;
+    height: 650px;
+    padding: 0.5%; }
+  .artContenedor {
+    width: 86%;
+    margin: 1% 7% 0% 7%; } }
 
 /* MOBILE */
 @media only screen and (max-width: 415px) {
@@ -82,9 +91,12 @@ div iframe {
   .tituloIndex {
     text-align: left; }
   .section2 {
-    width: 450px;
-    height: 300PX;
-    margin: 1% 0% 0% 1%; } }
+    width: 80%;
+    height: 300px;
+    margin: 1% 10% 0% 10%; }
+  .artContenedor {
+    width: 86%;
+    margin: 1% 7% 0% 7%; } }
 
 /*submenu inicio*/
 * {
@@ -303,16 +315,16 @@ footer {
 /* TABLET */
 @media only screen and (max-width: 768px) and (min-width: 416px) {
   .formContacto {
-    width: 450px;
+    width: 80%;
     height: 300px;
-    margin: 10% 0% 0% 15%; } }
+    margin: 10% 10% 0% 10%; } }
 
 /* MOBILE */
 @media only screen and (max-width: 415px) {
   .formContacto {
-    width: 450px;
+    width: 80%;
     height: 300px;
-    margin: 1% 0% 0% 2%; } }
+    margin: 1% 0% 0% 10%; } }
 
 /*Sobre nosotros*/
 .textoSobreNosotros {

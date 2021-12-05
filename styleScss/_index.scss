@@ -77,6 +77,8 @@ div iframe{
         height: 670PX;
         margin: 1% 0% 0% 30%;
     }
+
+    
 }
 
 
@@ -99,6 +101,18 @@ div iframe{
         margin: 1% 0% 0% 3%;
     }
    
+    .artContenedor {
+        margin: 10px;
+        background-color: #ffc046;
+        width: 450px;
+        height: 650px;
+        padding: 0.5%;
+    }
+
+    .artContenedor {
+        width: 86%;
+        margin: 1% 7% 0% 7%;
+    }
 }
 
 /* MOBILE */
@@ -119,9 +133,13 @@ div iframe{
     }
 
     .section2{
-        width: 450px;
-        height: 300PX;
-        margin: 1% 0% 0% 1%;
+        width: 80%;
+        height: 300px;
+        margin: 1% 10% 0% 10%;
     }
-    
+ 
+    .artContenedor {
+        width: 86%;
+        margin: 1% 7% 0% 7%;
+    }
 }
