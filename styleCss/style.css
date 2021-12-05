@@ -54,9 +54,9 @@ div iframe {
     overflow: hidden;
     transform: scale(1.2, 1.2); }
   .section2 {
-    width: 700px;
-    height: 670PX;
-    margin: 1% 0% 0% 30%; } }
+    width: 30%;
+    height: 670px;
+    margin: 1% 35% 0% 35%; } }
 
 /* TABLET */
 @media only screen and (max-width: 768px) and (min-width: 416px) {
@@ -146,7 +146,7 @@ li a.active, li a:hover {
   display: none; }
 
 /* TABLET */
-@media only screen and (max-width: 1000px) and (min-width: 416px) {
+@media only screen and (max-width: 1068px) and (min-width: 416px) {
   .checkBtn {
     display: block; }
   ul {
@@ -283,9 +283,9 @@ footer {
 .formContacto {
   font-size: 28px;
   background-color: #ffbd45;
-  width: 450px;
+  width: 35%;
   height: 350px;
-  margin: 10% 0% 0% 37%; }
+  margin: 10% 32.5% 0% 32.5%; }
 
 .inputContacto {
   font-size: 20px;
@@ -324,7 +324,7 @@ footer {
   .formContacto {
     width: 80%;
     height: 300px;
-    margin: 1% 0% 0% 10%; } }
+    margin: 5% 0% 0% 10%; } }
 
 /*Sobre nosotros*/
 .textoSobreNosotros {
