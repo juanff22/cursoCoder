@@ -90,7 +90,7 @@ div iframe{
 @media only screen and (max-width: 1896px) and (min-width: 957px) {
     .mainIndex{
         display: grid;
-        grid-template-rows: 200px 610px 1500px;
+        grid-template-rows: 250px 610px 1500px;
     }
 
     /*Transformacion*/
@@ -121,7 +121,7 @@ div iframe{
 @media only screen and (max-width: 956px) and (min-width: 426px){
     .mainIndex{
         display: grid;
-        grid-template-rows: 150px 750px 2650px;
+        grid-template-rows: 180px 750px 2650px;
     }
 
     .logo{
@@ -148,7 +148,7 @@ div iframe{
 @media only screen and (max-width: 425px) {
     .mainIndex{
         display: grid;
-        grid-template-rows: 120px 350px 3250px;
+        grid-template-rows: 150px 350px 3250px;
     }
 
     .logo{

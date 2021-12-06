@@ -67,7 +67,7 @@ div iframe {
 @media only screen and (max-width: 1896px) and (min-width: 957px) {
   .mainIndex {
     display: grid;
-    grid-template-rows: 200px 610px 1500px; }
+    grid-template-rows: 250px 610px 1500px; }
   /*Transformacion*/
   .tituloIndex:hover {
     transition: 2s;
@@ -86,7 +86,7 @@ div iframe {
 @media only screen and (max-width: 956px) and (min-width: 426px) {
   .mainIndex {
     display: grid;
-    grid-template-rows: 150px 750px 2650px; }
+    grid-template-rows: 180px 750px 2650px; }
   .logo {
     width: 10%;
     margin: 0% 45% 0% 45%; }
@@ -102,7 +102,7 @@ div iframe {
 @media only screen and (max-width: 425px) {
   .mainIndex {
     display: grid;
-    grid-template-rows: 120px 350px 3250px; }
+    grid-template-rows: 150px 350px 3250px; }
   .logo {
     width: 15%;
     margin: 0% 42.5% 0% 42.5%; }
@@ -169,7 +169,7 @@ li a.active, li a:hover {
   display: none; }
 
 /* TABLET */
-@media only screen and (max-width: 1068px) and (min-width: 420px) {
+@media only screen and (max-width: 1068px) and (min-width: 465px) {
   .menu {
     position: fixed; }
   .checkBtn {
@@ -189,7 +189,7 @@ li a.active, li a:hover {
   #check:checked ~ ul, .menu {
     left: 0; } }
 
-@media only screen and (max-width: 419px) {
+@media only screen and (max-width: 464px) {
   .menu {
     position: fixed; }
   .checkBtn {
@@ -197,7 +197,7 @@ li a.active, li a:hover {
   ul {
     position: fixed;
     width: 100%;
-    height: 30%;
+    height: 35%;
     background: #c25e00;
     top: 40px;
     right: -150%; }
