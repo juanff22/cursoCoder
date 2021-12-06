@@ -6,6 +6,11 @@
 @import "sobreNosotros";
 
 /*Generales*/
+$colorFondo:  #fb8c00;
+$colorSecundario: #ffc046;
+$colorTerciario:#c25e00;;
+$colorAlternativo: #5c007a;
+
 *{
     margin: 0px;
     padding: 0px;
@@ -13,7 +18,7 @@
 }
 
 body{
-    background-color: #fb8c00;
+    background-color: $colorFondo;
     background-size: 100%;
     background-repeat: round;
     font-family: 'Open Sans', sans-serif;
