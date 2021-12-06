@@ -1,3 +1,4 @@
+@import "colores";
 /*Contacto*/
 
 .contactoMain{
@@ -47,7 +48,7 @@
 }
 
 .buttonContacto{
-    background: $colorSecundario;
+    background: $colorTerciario;
     border: none;
     text-decoration: black;
     width: 70px;
@@ -56,7 +57,7 @@
 
 .buttonContacto:hover{
     color: black;
-    background: $colorTerciario;
+    background: $colorFondo;
 
 }
 
