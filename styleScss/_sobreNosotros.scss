@@ -8,6 +8,14 @@
 
 .sobreNosotrosTitulo{
     margin-left: 1% ;
+    padding-top: 0.5%;
+}
+
+.nombresSobreNos{
+    padding: 3%;
+    font-size: large;
+    font-family: sans-serif;
+    color: $colorAlternativo;
 }
 
 @media only screen and (min-width: 1801px) {

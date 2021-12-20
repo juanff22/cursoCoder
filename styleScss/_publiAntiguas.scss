@@ -14,10 +14,15 @@
   
 }
 
+.con1{
+    order: 1;
+}
+
 .imagenPublicacionesAntiguas{
     width: 25% ;
     height: 100%;
     float: left;
+    padding-right: 3%;
 }
 
 
@@ -54,8 +59,8 @@
     }
 
     .imagenPublicacionesAntiguas{
-        width: 60% ;
-        height: 60%;
+        width: 50% ;
+        height: 65%;
     }
 }
 
