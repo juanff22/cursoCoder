@@ -424,7 +424,7 @@ footer {
 /* TABLET */
 @media only screen and (max-width: 1800px) and (min-width: 416px) {
   .sobreNosotros {
-    height: 1450px; }
+    height: 1700px; }
   .contenedorSobreNos {
     text-align: center;
     display: grid;
@@ -436,7 +436,7 @@ footer {
 /* MOBILE */
 @media only screen and (max-width: 415px) {
   .sobreNosotros {
-    height: 850px;
+    height: 950px;
     width: 100%; }
   .contenedorSobreNos {
     text-align: center;
